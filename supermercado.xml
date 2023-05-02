@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+<supermercado>
+  <nombre>Carrefour</nombre>
+  <direccion>avenida cerro prieto, 19</direccion>
+  <geolocalizacion>
+    <latitud>42.129276</latitud>
+    <longitud>-9.9054324</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Leche semidesnatada</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-05-01</inicio>
+        <fin>2023-05-31</fin>
+      </periodo_vigencia>
+      <habitual>false</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>litro</unidad_medida>
+      <precio>0.98</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Arroz basmati</nombre>
+      <oferta>false</oferta>
+      <periodo_vigencia/>
+      <habitual>true</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>kilo</unidad_medida>
+      <precio>1.58</precio>
+      <adquirido>true</adquirido>
+    </producto>
+    <producto>
+      <nombre>Pollo entero</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-05-01</inicio>
+        <fin>2023-05-31</fin>
+      </periodo_vigencia>
+      <habitual>false</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>unidad</unidad_medida>
+      <precio>6.50</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Patatas</nombre>
+      <oferta>false</oferta>
+      <periodo_vigencia/>
+      <habitual>true</habitual>
+      <unidades>1</unidades>
+      <unidad_medida>kilo</unidad_medida>
+      <precio>0.80</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Queso curado</nombre>
+      <oferta>false</oferta>
+      <periodo_vigencia/>
+      <habitual>true</habitual>
+      <unidades>200</unidades>
+      <unidad_medida>gramos</unidad_medida>
+      <precio>1.50</precio>
+      <adquirido>true</adquirido>
+    </producto>
+    <producto>
+      <nombre>Galletas chocolate</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-05-01</inicio>
+        <fin>2023-05-31</fin>
+      </periodo_vigencia>
+      <habitual>false</habitual>
+      <unidades>2</unidades>
+      <unidad_medida>paquete</unidad_medida>
+      <precio>1.80</precio>
+      <adquirido>false</adquirido>
+    </producto>
+  </productos>
+</supermercado>
+</root>

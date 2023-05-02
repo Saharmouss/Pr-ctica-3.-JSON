@@ -1,0 +1,74 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Mercadona",
+        "direccion": "Calle juan bravo, 15",
+        "geolocalizacion": {
+          "latitud": 47.123456,
+          "longitud": -2.987654
+        },
+        "productos": [
+          {
+            "nombre": "Leche semidesnatada sin lactosa",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-01",
+              "fin": "2023-04-30"
+            },
+            "habitual": false,
+            "unidades": 1,
+            "unidad_medida": "litro",
+            "precio": 0.90,
+            "adquirido": false
+          },
+          {
+            "nombre": "Huevos M",
+            "oferta": false,
+            "periodo_vigencia":  {
+              "inicio": "2023-03-01",
+              "fin": "2023-08-20"
+            },
+            "habitual": true,
+            "unidades": 12,
+            "unidad_medida": null,
+            "precio": 1.80,
+            "adquirido": true
+          }
+        ]
+      },
+      {
+        "nombre": "Eleclerc",
+        "direccion": "Calle reston, 19",
+        "geolocalizacion": {
+          "latitud": 40.135790,
+          "longitud": -3.975310
+        },
+        "productos": [
+          {
+            "nombre": "Atún en aceite de oliva",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-15",
+              "fin": "2024-02-10"
+            },
+            "habitual": false,
+            "unidades": 3,
+            "unidad_medida": "latas",
+            "precio": 4.50,
+            "adquirido": false
+          },
+          {
+            "nombre": "Papel higiénico",
+            "oferta": false,
+            "periodo_vigencia": "No caduca",
+            "habitual": true,
+            "unidades": 6,
+            "unidad_medida": "rollos",
+            "precio": 2.50,
+            "adquirido": false
+          }
+        ]
+      }
+    ]
+  }
+  
